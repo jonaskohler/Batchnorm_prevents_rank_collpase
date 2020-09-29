@@ -1,0 +1,6 @@
+For Figure 5, include the vgg model alongside the my_bn implementation in your favorite PyTorch framework such as Lightning.
+
+> my_bn is an adaption of the official PyTorch BN implementation that allows to omitt zero centering, omit variance adaption
+  as well as fixed adaption and fixed centering.
+
+> the vgg file is a simple adaption of VGG to CIFAR-10 inputs and it includes flags to incorporate the above bn adaptions.
